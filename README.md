@@ -6,11 +6,9 @@ This project involves building tools to visualize USGS (United States Geological
 
 - - -
 
-## Visualizations
+## Visualization
 
-### Level 1: Basic Visualization
-
-The first part of the project involves visualizing an earthquake data set.
+The project involves visualizing an earthquake data set.
 
 1. **Data set**
 
