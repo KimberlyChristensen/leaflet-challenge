@@ -14,7 +14,7 @@ The first part of the project involves visualizing an earthquake data set.
 
 1. **Data set**
 
-   The USGS earthquake data is provided in a number of different formats, updated every 5 minutes. The data was pulled from the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page.  The website provides several options for selecting data, including the Past Hour, Past Day, Past 7 Days, and Past 30 Days.  The data can further be filtered to include all earthquakes or just significant earthquakes.  For this project, "Significant Earthquakes within the Past 30 Days" was selected.
+   The USGS earthquake data is provided in a number of different formats, updated every 5 minutes. The data was pulled from the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page.  The website provides several options for selecting data, including the Past Hour, Past Day, Past 7 Days, and Past 30 Days.  The data can further be filtered to include all earthquakes or just significant earthquakes.  For this project, "Earthquakes with a Magnitude of 2.5+ within the Past 30 Days" was selected.
    
    The data returned is a JSON representation of that data. The URL of this JSON is used to pull in the data for the visualization.
 
@@ -28,18 +28,3 @@ The first part of the project involves visualizing an earthquake data set.
 
    * A legend was created that provides context for the map data.
 
-- - -
-
-### Level 2: More Data
-
-This portion of the project involves plotting a second data set on the map to illustrate the relationship between tectonic plates and seismic activity. 
-
-A second data set on tectonic plates was pulled from <https://github.com/fraxen/tectonicplates>.
-
-This portion of the project involves:
-
-* Plotting the second data set on the map.
-
-* Adding a number of base maps to choose from as well as separating out the two different data sets into overlays that can be turned on and off independently.
-
-* Adding layer controls to the map.
